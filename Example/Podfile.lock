@@ -1,14 +1,16 @@
 PODS:
-  - ExampleLib (1.0.0)
+  - ExampleLib (2.0.1)
 
 DEPENDENCIES:
-  - ExampleLib (from `../`)
+  - ExampleLib (~> 2.0.1)
 
-EXTERNAL SOURCES:
-  ExampleLib:
-    :path: ../
+SPEC REPOS:
+  https://dl.cloudsmith.io/public/jaoo/cocoapods/cocoapods/index.git:
+    - ExampleLib
 
 SPEC CHECKSUMS:
-  ExampleLib: 391264e3655416992b9e7dc05f96c8cc3137e11f
+  ExampleLib: c782f5b75405a11dfc15e015da3b4bd18530eec0
 
-COCOAPODS: 0.35.0
+PODFILE CHECKSUM: 7446c63393c0dead9dfa66defd3702581a492f10
+
+COCOAPODS: 1.15.2
